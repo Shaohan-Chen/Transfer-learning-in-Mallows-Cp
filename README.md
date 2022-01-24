@@ -19,7 +19,7 @@ Within the download, you'll find four folders: *TLCp_simulation*, *TLCp_iron_exp
 - *multilevel_lasso*. This folder contains functions to calculate the unexplained variance of the multi-level LASSO [^3] using school data sets. 
 - *original_Cp*. This folder contains functions to calculate the unexplained variance of the Mallows' Cp criterion using school data sets.
 - *original_TLCp*. This folder contains functions to calculate the unexplained variance of the original TLCp method (with one source task) using school data sets.
-- *original_TLCp._multisource*. This folder contains functions to calculate the unexplained variance of the original TLCp method (with two source tasks) using school data sets.
+- *original_TLCp_multisource*. This folder contains functions to calculate the unexplained variance of the original TLCp method (with two source tasks) using school data sets.
 3. The illustration for the *TLCp_school_experiments* folder can be applied to the *TLCp_iron_experiments* and *TLCp_parkinson_experiments* folders.
 4. This repository is currently only available for MATLAB. The user needs MATLAB with 2021a or higher versions.
 [^1]: Zhou, Jiayu, Jianhui Chen, and Jieping Ye. "Malsar: Multi-task learning via structural regularization." Arizona State University 21 (2011).
