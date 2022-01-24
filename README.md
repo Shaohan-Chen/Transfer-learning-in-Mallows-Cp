@@ -1,5 +1,6 @@
 # Transfer-learning-in-Mallows-Cp
 This repository contains the code for reproducing the experimental results of ''Transfer Learning in Information Criteria-based Feature Selection" (https://arxiv.org/abs/2107.02847).
+
 Within the download, you'll find four folders: *TLCp_simulation*, *TLCp_iron_experiments*, *TLCp_school_experiments*, and *TLCp_parkinson_experiments*. Each folder provides the functions and the associate datasets to estimate the regression coefficients using the proposed two TLCp methods and other compared benchmarks.
 1. The *TLCp_simulation* folder includes five subfolders:
 - *approximate_Cp_data_interaction*. This folder contains functions to calculate the MSE values of the approximate Cp and the original Cp estimators in the presence of feature correlations using the simulated data sets.
@@ -14,7 +15,7 @@ Within the download, you'll find four folders: *TLCp_simulation*, *TLCp_iron_exp
 - *aggregate_univariate*. This folder contains functions to calculate the unexplained variance of the aggregate univariate FS using school data sets. We can easily reproduce the experimental results of the univariate FS by modifying this function slightly.
 - *approximate_TLCp*. This folder contains functions to calculate the unexplained variance of the approximate TLCp method (with one source task) using school data sets. 
 - *approximate_TLCp_multisource*. This folder contains functions to calculate the unexplained variance of the approximate TLCp method (with two source tasks) using school data sets. 
-- *multi_L21*. This folder contains functions to calculate the unexplained variance of the least L21-norm method [^1][^2] using school data sets. 
+- *multi_L21*. This folder contains functions to calculate the unexplained variance of the least L21-norm method [^1],[^2] using school data sets. 
 - *multilevel_lasso*. This folder contains functions to calculate the unexplained variance of the multi-level LASSO [^3] using school data sets. 
 - *original_Cp*. This folder contains functions to calculate the unexplained variance of the Mallows' Cp criterion using school data sets.
 - *original_TLCp*. This folder contains functions to calculate the unexplained variance of the original TLCp method (with one source task) using school data sets.
